@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 300"><defs>
+<linearGradient id="night" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#26175d"/><stop offset="1" stop-color="#7042b7"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe39a"/><stop offset="1" stop-color="#f0a928"/></linearGradient>
+<linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9d78ff"/><stop offset="1" stop-color="#5534a4"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<ellipse cx="120" cy="272" rx="72" ry="16" fill="#1d1446" opacity=".25"/>
+<path d="M65 190 Q48 255 79 283 H161 Q192 250 174 188Z" fill="url(#purple)" stroke="#40247c" stroke-width="6"/>
+<path d="M57 104 L34 50 Q70 65 86 86Z" fill="#d95e2c" stroke="#7d331b" stroke-width="5"/><path d="M183 104 L207 50 Q169 64 154 86Z" fill="#d95e2c" stroke="#7d331b" stroke-width="5"/>
+<path d="M120 72 C72 72 52 111 59 158 C65 201 88 220 120 220 C151 220 177 201 181 157 C186 110 166 72 120 72Z" fill="#ef7a3b" stroke="#7d331b" stroke-width="6"/>
+<path d="M87 158 Q120 134 154 158 Q153 205 120 210 Q85 204 87 158Z" fill="#fff2dc"/>
+<ellipse cx="93" cy="137" rx="10" ry="14" fill="#2a1c3e"/><ellipse cx="147" cy="137" rx="10" ry="14" fill="#2a1c3e"/><circle cx="96" cy="132" r="3" fill="white"/><circle cx="150" cy="132" r="3" fill="white"/>
+<path d="M111 163 Q120 171 129 163 Q128 176 120 180 Q112 176 111 163Z" fill="#39233e"/><path d="M101 187 Q120 199 139 187" fill="none" stroke="#713c36" stroke-width="5" stroke-linecap="round"/>
+<path d="M46 96 Q78 27 165 37 Q196 41 206 68 Q147 55 88 73 Q61 83 46 96Z" fill="#4c2b91" stroke="#321f6c" stroke-width="6"/><path d="M88 67 Q100 8 140 12 Q170 14 170 51" fill="#6040ad" stroke="#321f6c" stroke-width="6"/><circle cx="128" cy="31" r="5" fill="#ffd96a"/><path d="M108 56 H174" stroke="#ffd96a" stroke-width="8" stroke-linecap="round"/>
+<circle cx="120" cy="229" r="16" fill="url(#gold)" stroke="#a56a16" stroke-width="4"/><path d="M120 216 l4 9 10 1-8 6 3 10-9-5-9 5 3-10-8-6 10-1z" fill="#fff3b9"/>
+<path d="M177 219 Q211 194 218 225 Q219 250 189 256" fill="#ef7a3b" stroke="#7d331b" stroke-width="6"/><path d="M205 217 Q222 217 214 237" fill="#fff2dc"/>
+</svg>

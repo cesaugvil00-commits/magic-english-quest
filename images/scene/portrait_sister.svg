@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 300" role="img" aria-label="sister">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff8e7"/><stop offset="1" stop-color="#e9defc"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#44306b" flood-opacity=".22"/></filter></defs>
+<rect x="8" y="8" width="224" height="284" rx="34" fill="url(#bg)" stroke="#d7c4ee" stroke-width="4"/>
+<circle cx="120" cy="92" r="38" fill="#5c3b34" opacity=".98" filter="url(#s)"/>
+<circle cx="120" cy="99" r="30" fill="#eeb187"/>
+<path d="M92 79 Q120 52 148 79 L143 57 Q120 44 97 58Z" fill="#5c3b34"/>
+<circle cx="110" cy="97" r="4" fill="#40344d"/><circle cx="130" cy="97" r="4" fill="#40344d"/>
+<path d="M106 116 Q120 126 134 116" fill="none" stroke="#874f5f" stroke-width="4" stroke-linecap="round"/>
+<rect x="67" y="123" width="106" height="80" rx="46" fill="#e47c9b" filter="url(#s)"/>
+<path d="M81 147 L42 203" stroke="#eeb187" stroke-width="20" stroke-linecap="round"/><path d="M159 147 L198 203" stroke="#eeb187" stroke-width="20" stroke-linecap="round"/>
+<path d="M94 195 L83 268 M146 195 L157 268" stroke="#9f5a78" stroke-width="22" stroke-linecap="round"/>
+<rect x="42" y="236" width="156" height="43" rx="20" fill="#4a367b" opacity=".94"/><text x="120" y="264" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="white">SISTER</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 260"><defs>
+<linearGradient id="night" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#26175d"/><stop offset="1" stop-color="#7042b7"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe39a"/><stop offset="1" stop-color="#f0a928"/></linearGradient>
+<linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9d78ff"/><stop offset="1" stop-color="#5534a4"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs><ellipse cx="120" cy="236" rx="65" ry="14" fill="#1d1446" opacity=".2"/>
+<path d="M55 107 Q44 61 82 34 L105 74 Q120 62 135 74 L158 34 Q196 61 184 107 Q201 137 182 195 Q164 231 120 232 Q74 230 57 195 Q38 137 55 107Z" fill="#bfae9f" stroke="#64564f" stroke-width="6"/>
+<path d="M63 121 Q84 92 109 116 Q121 98 132 116 Q157 93 179 122 Q164 161 132 156 Q120 175 108 156 Q77 160 63 121Z" fill="#eee4d7"/>
+<circle cx="93" cy="128" r="23" fill="#f7d660" stroke="#604b31" stroke-width="5"/><circle cx="147" cy="128" r="23" fill="#f7d660" stroke="#604b31" stroke-width="5"/><circle cx="93" cy="128" r="10" fill="#251a34"/><circle cx="147" cy="128" r="10" fill="#251a34"/>
+<path d="M111 153 L120 166 L129 153Z" fill="#d08b38"/><path d="M67 173 Q49 196 61 216 Q88 212 98 186" fill="#9d8d83"/><path d="M173 173 Q191 196 179 216 Q151 211 143 186" fill="#9d8d83"/>
+<rect x="75" y="190" width="90" height="48" rx="7" fill="#f7e9c6" stroke="#8d6549" stroke-width="5" transform="rotate(-5 120 214)"/><circle cx="120" cy="214" r="12" fill="#753d86"/><path d="M115 209 l10 10 m0-10-10 10" stroke="#f9d76b" stroke-width="3"/>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "name": "Magic English Quest",
+  "short_name": "English Quest",
+  "description": "Story-first English learning adventure for children.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#160d37",
+  "theme_color": "#4930a8",
+  "orientation": "portrait-primary",
+  "icons": []
+}

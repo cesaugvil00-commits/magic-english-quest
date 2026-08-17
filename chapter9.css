@@ -1,0 +1,4 @@
+/* MVP 1.4 — Family Portrait interaction layer */
+.c9-focus-portrait{display:block;width:min(250px,78%);max-height:300px;object-fit:contain;margin:14px auto;border-radius:28px;filter:drop-shadow(0 12px 18px #32215424)}
+.runtime-choice.c9-who-choice{min-height:76px;font-size:20px;text-transform:capitalize;background:linear-gradient(160deg,#fff,#f2ebff)}
+@media(max-width:390px){.c9-focus-portrait{width:min(220px,82%);max-height:255px}}

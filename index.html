@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#3f2a8a" />
+  <title>Magic English Quest — MVP 1.9</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="chapter8.css" />
+  <link rel="stylesheet" href="chapter9.css" />
+  <link rel="stylesheet" href="chapter10.css" />
+  <link rel="manifest" href="manifest.webmanifest" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button id="homeBtn" class="icon-btn" aria-label="Inicio">🏰</button>
+      <div class="brand">
+        <div class="brand-title">✨ Magic English Quest</div>
+        <div id="headerSubtitle" class="brand-sub">Before the Letter · Zero English</div>
+      </div>
+      <button id="soundBtn" class="icon-btn" aria-label="Música y sonidos">🔊</button>
+      <button id="parentBtn" class="icon-btn" aria-label="Panel adulto">👨‍👧</button>
+    </header>
+
+    <div class="hud">
+      <div class="hud-pill">⭐ <span id="levelText">Step 1</span></div>
+      <div class="hud-pill">🪙 <span id="coinText">0</span></div>
+      <div class="hud-pill reward-pill">🎁 <span id="rewardText">$0 / $2.000</span></div>
+    </div>
+
+    <main id="screen" class="screen" aria-live="polite"></main>
+
+    <nav class="bottom-nav">
+      <button data-nav="story" class="nav-active">📖<span>Historia</span></button>
+      <button data-nav="map">🗺️<span>Mapa</span></button>
+      <button data-nav="songs">🎵<span>Música</span></button>
+      <button data-nav="review">🧠<span>Repaso</span></button>
+      <button data-nav="rewards">🎁<span>Premios</span></button>
+    </nav>
+  </div>
+
+  <dialog id="parentDialog" class="parent-dialog">
+    <form method="dialog" class="parent-panel">
+      <div class="dialog-head">
+        <div>
+          <h2>Panel del adulto</h2>
+          <p>Configuración local del prototipo. La app no mueve dinero.</p>
+        </div>
+        <button class="close-btn" value="cancel">✕</button>
+      </div>
+      <label>Máximo semanal (ARS)
+        <input id="weeklyCapInput" type="number" min="0" step="500" />
+      </label>
+      <label>Valor de 1 moneda (ARS)
+        <input id="coinValueInput" type="number" min="0" step="0.5" />
+      </label>
+      <div class="parent-summary" id="parentSummary"></div>
+      <div class="dialog-actions">
+        <button id="saveParentSettings" type="button" class="btn primary">Guardar</button>
+        <button id="resetProgress" type="button" class="btn danger">Reiniciar demo</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+  <script src="chapter2.js"></script>
+  <script src="quality.js"></script>
+  <script src="scene_engine.js"></script>
+  <script src="chapter3.js"></script>
+  <script src="story_data.js"></script>
+  <script src="vocab_data.js"></script>
+  <script src="pedagogy_kernel.js"></script>
+  <script src="story_runtime.js"></script>
+  <script src="dialogue_runtime.js"></script>
+  <script src="chapter4.js"></script>
+  <script src="chapter5.js"></script>
+  <script src="chapter6.js"></script>
+  <script src="chapter7.js"></script>
+  <script src="chapter8.js"></script>
+  <script src="chapter9.js"></script>
+  <script src="chapter10.js"></script>
+</body>
+</html>
